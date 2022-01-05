@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical_dep1">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:text="Diprofos Injection"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skinn1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="يحتوى عقار Diprofos Injection
+على المادة الفعالة بيتاميثازون وهى احدى مشتقات مادة الكورتيزون وهى مادة خطيرة جدا   اذا زادت نسبتها فى الجسم لذلك ينصح الاطباء باستخدم هذه الحقنة كل فترة معينه وفى الغالب كل 3 شهور على الاقل
+دواعي الاستعمال لدواء, ديبروفوس حقن Diprofos Injection :
+ يستخدم الدواء في علاج الربو القصبي المزمن كما يمكن ان يعالج التهابات الانف الموسمية ، بالإضافة الى انه يمكن ان يعالج الوذمات الوعائية العصبية .
+
+ يستعمل الدواء في علاج التهابات الجلد بالتماس كما يمكن ان يعالج التهابات العظام المفصلية ، بالإضافة الى انه يمكنه علاج التهاب المفاصل الرثواني .
+
+ يستخدم الدواء في علاج التهابات الجلد والعضلات كما يمكنه معالجة التهابات القولون التقرحية ، بالإضافة الى انه يمكنه علاج الذئبة الحمراء والصدفية .
+
+الجرعة وطريقة الاستعمال لدواء ديبروفوس حقن Diprofos Injection :
+
+ يلزم استشارة الطبيب المعالج قبل اخذ الدواء لمعرفة اوقات الجرعات اللازمة حسب حالة المريض .
+
+الاثار الجانبية لدواء ديبروفوس حقن Diprofos Injection :
+
+ قد يحدث احيانا ارتفاع ضغط الدم كما يمكن ان يكون هناك تراكم الدهون في منطقة البطن ، بالإضافة الى انه يمكن ان يكون هناك هشاشة في العظام .
+
+من المحتمل ان يكون هناك ارتفاع نسبة السكر في الدم كما يمكن ان يسبب الدواء عدم انتظام الدورة الشهرية ، بالإضافة الى انه يمكن ان يحدث تقلبات في المزاج .
+
+ احيانا يسبب الدواء ارتفاع في ضغط العين كما يمكن ان يكون هناك حدوث تقرحات في المعدة والامعاء ، بالإضافة الى انه يمكن ان يسبب اضطرابات في النوم .
+
+موانع الاستعمال لدواء ديبروفوس حقن Diprofos Injection :
+
+ يمنع تناول الدواء للأشخاص الذين يعانون من فرط الحساسية لإحدى مكونات الدواء او إي مكون اخر من مكونات الدواء الاخرى .
+
+ لا يمكن استعمال الدواء في فترة الحمل وخاصة في الاشهر الاولى من الحمل لأنه قد يحدث بعض التشوهات الخلقية للجنين ، كما لا يمكن استخدام الدواء في مرحلة الرضاعة الطبيعية لان الدواء يمر في حليب الام مما يؤدى الى خطورة على حياة الطفل الرضيع لذلك ينصح باستشارة الطبيب المعالج قبل اخذ الدواء خلال مرحلتي الحمل والرضاعة الطبيعية سعر دواء ديبروفوس حقن Diprofos Injection :
+
+ يتوافر دواء ديبروفوس Diprofos بتركيز 5 مجم في الأسواق المصرية بسعر 14 جنية مصري للعلبة كاملة.
+
+"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map2"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+        </LinearLayout>

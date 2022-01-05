@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context="com.example.momen.test.department">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn1"
+                android:text="قسم الأدويه الجلديه" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn2"
+                android:text="قسم أدويه الجهاز العصبى"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn3"
+                android:text="قسم الأدويه السرطانيه" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn4"
+                android:text="قسم أدويه العيون" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn5"
+                android:text="قسم ادويه السكر" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn6"
+                android:text="أدويه النزلات الشعبيه" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn7"
+                android:text="قسم أدويه الأنف والأذن والحنجره" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn8"
+                android:text="ادويه امراض الدم والأوعيه" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn9"
+                android:text="أدويه الإلتهاب الكبدى" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn10"
+                android:text="أدويه التخسيس" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn11"
+                android:text="المٌسكنات" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:clickable="true"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_gravity="center_vertical"
+                android:padding="14dp"
+                android:textAllCaps="false"
+                android:onClick="buttn12"
+                android:text="أدويه علاج الضعف الجنسى" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

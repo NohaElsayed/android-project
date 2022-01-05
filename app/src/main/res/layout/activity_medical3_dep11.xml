@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical3_dep11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Somadril Comp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/painkill3"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="يحتوى دواء سومادريل على المادة الفعالة  الكاريزوبرودول وهو أحد أنواع الأدوية المسكنة التي تعمل تخفيف الشعور بالألم في مختلف الأماكن في الجسم .
+يتم استخدام دواء سومادريل لعلاج حالات الشد العضلي والتشنجات العضلية التي تحدث في الأطراف وبالتالي تسبب الألم الشديد فيعمل سومادريل على السيطرة والتخفيف من ذلك الألم.
+أيضاً يساعد دواء سومادريل على تسكين آلام الحمى ومعالجة الأعراض الخاصة بها من ارتفاع درجة الحرارة والرجفة والالتهاب ويساعد على استعادة الجسم نشاطه سريعاً .
+ويصلح أيضاً دواء سومادريل لتخفيف الألم الناتج عن الدورة الشهرية ولكن يجب استشارة الطبيب قبل تناوله في حالة تناول أدوية أخرى بجانبه حتى لا يحدث تداخلات.
+ ويعمل دواء سومادريل على علاج التهابات المفاصل وخاصة الالتهابات الناتجة عن الروماتيزم في فصل الشتاء وآلام العمود الفقري .
+أما بالنسبة لحالات النقرس يعالج دواء سومادريل نوبات النقرس التي تأتي نتيجة تناول كمية كبيرة من البروتين الحيواني، ويعالج أيضاً الصداع النصفي
+السعر 8.6
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map59"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

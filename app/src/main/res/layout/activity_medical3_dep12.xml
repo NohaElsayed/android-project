@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical3_dep12">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:text="Androcur"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sex13"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="يتم استخدام أندرو كور في السيطرة على الدافع الجنسي لدى الرجال، وهم الذين لديهم رغبة شديدة في الدافع الجنسي وهي مثل فرط الرغبة الجنسية، أو الأنحراف الجنسي في بعض الرجال الذين يفضلون الممارسات الجنسية وهي التي تعتبر غير طبيعية بيولوجيا وهي تعتبر خاطئة من الناحية الأخلاقية أو الغير قانونية، ويكون على سبيل المثال الاعتداء الجنسي على الأطفال أو البهيمية.
+ من الممكن أن يتم أستخدام عقار أندروكيور أقراص في حالات سرطان البروستاتا التي تأتي للرجال.
+ يتم أستخدام العقار أيضاً في بعضض الحالات الخاصة جداً وهي من الممكن أن يتم استخدام العقار في النساء اللواتي يعانون من حالات مرضية وهي التي تأتي لهم بسبب زيادة هرمون الذكورة لديهم، وهذا مصل حب الشباب الحاد أو الصلع وهذا نتيجة التيستوستيرون أو الزيادة في الشهر المتواجد بالجسم والوجه
+أندروكيور أقراص تحتوى على مادة خلات سيبروتيرون كعنصر نشط (فعال) وأندروكيور أقراص تنتمى إلى فئة من الأدوية تسمى مضادات الاندروجين .
+يتوافر دواء أندروكور أقراص بتركيز 50 مجم فى الأسواق المصرية بسعر 120 جنية مصري للعلبة كاملة.
+
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map68"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

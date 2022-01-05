@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.meidcal1_dep4">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Zymar "/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eyee1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:text="زيمار قطرة من أنواع القطرة التي تعالج أمراض العيون والذي غالبا ما يكون سببها بعض أنواع البكتريا الدقيقة التي لا نستطيع رؤيتها بالعين المجردة والتي تسبب أمراض مختلفة للعين ويحتوي هذا الدواء علي مادة الجاتيفلوكساسين وهذه المادة الفعالة من المواد التي تصنف كمضاد حيوي لفئة الكينولون ويقوم عملها عن طريق قتل هذه البكتريا وذلك عن طريق إيقاف البروتين اللازم لحياة هذه البكتريا.
+السعر:33 جنية.
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="btn_map93"
+                android:text="الذهاب للموقع على الخريطه"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

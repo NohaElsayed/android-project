@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical9_dep9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Farcovit-B12"/>
+
+            <ImageButton
+                android:id="@+id/my_pic51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/liverr9"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="
+تعالج هذه الأقراص الفشل الكبدي الناتج عن إلتهاب به أو تسمم، أو الإصابة بطفيليات معوية وإدمان الكحوليات
+تساعد في علاج إرتفاع ضغط الدم وأمراض تصلب الشرايين والأنيميا والسمنة في فترة الحمل
+معالجة فشل عملية التمثيل الغذائي في حالات مرضى السكري، وإلتهاب الأعصاب الطرفية.
+تحتوى كبسولات فاركوفيت ب12 على مجموعة فيتامين ب المركب مع نسبة عالية من فيتامين ب12 اللازم لتجديد كرات الدم الحمراء والمحافظة على حيوية الجسم وسلامة النخاع الشوكى والاعصاب كما تحتوى على مادة اينوسيتول احدى العوامل التى من شأنها ان تتحد مع الدهون ومركبات الكوليسترول فتحولها بعيدا عن الكبد وتمنع تراكمها فى انسجتة ويحتوى فاركوفيت ب 12 على حمض الاوروتيك احد مكونات اللبن الطبيعية ومستخلصات الكبد والخميرة ولذا فانة يساعد على سلامة الكبد وشفائة من الحالات المرضية المختلفة .
+السعر : 185 جنية
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map47"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

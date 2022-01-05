@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical1_dep12">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="DurJoy"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sex11"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="يتم إستخدام هذه الاقراص في معالجة القذف المبكر لدى الرجال من عمر البلوغ، حيث أن مشكلة القذف المبكر هذه تعتبر من المشكلات الجنسية المنتشرة بين الرجال والتي تتسبب لهم بالشعور بإحباط شديد بسبب عدم قدرته على إكمال العملية الجنسية بشكل طبيعي وإرضاء زوجته.
+سعر دواء ديورجوي أقراص Durjoy Tablets :
+يتوافر دواء ديورجوي أقراص بتركيز 60 مجم فى الأسواق المصرية بسعر 45.00 جنية مصري للعلبة كاملة.
+يحتوى مستحضر ديورجوي على مادة تسمى (دابوكستين) والتى تنتمى إلى مجموعة دوائية تسمى المثبطات الانتقائية لامتصاص السيروتولي .
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map66"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

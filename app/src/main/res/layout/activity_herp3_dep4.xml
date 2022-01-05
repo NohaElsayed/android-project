@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.momen.test.herp3_dep4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:text="الزعفران "/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/herp23"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="
+مثل الشمر، اشتهر الزعفران بين توابل الطهي بأنه يساعد على تحسين البصر، بما في ذلك تحسين نتائج العتامة. وفي تجربة سريرية، أفاد كل مشارك تناول الزعفران بتحسن في الرؤية، مما دفع الباحثين إلى إحياء هذه العشبة كمفتاح محتمل لمنع فقدان البصر بين كبار السن . وفي دراسة أخرى، وجد الباحثون أن الزعفران حسن حساسية وميض الشبكية في المرضى، الذين تم تشخيصهم بوجود الضمور البقعي المبكر المرتبط بالعمر
+
+
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="قيم مدى أهميه المعلومات لك..!"
+                android:onClick="but_18"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

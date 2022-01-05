@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.momen.test.herp2_dep8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:text="الشعير المغلى"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/herp47"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="
+
+فوائد الشعير المغلى تنحصر فى :
+خفض معدل الكوليسترول في الجسم: يخفّض مغلي الشعير معدل الكوليسترول في الدم؛ بسبب الألياف الموجودة في الشعير التي تتحد مع مع الكوليسترول في الدم وتمنع امتصاصه في الجسم، وعند تخمّر ألياف الشعير في القولون تنتج أحماض يمتصها الجسم وهذه الأحماض تتداخل مع الكوليسترول الموجود بشكل حر في الدم وتمنع ارتفاعه، ويحتوي الشعيرعلى مركبات مثل البيتاجلوكان تخفّض نسبة الكوليسترول في الدم، وتحفز عمل جهاز المناعة، وفي مغلي الشعير العديد من أنواع الفيتامينات وخصوصاً فيتامين هـ الذي يثبّط تصنيع الكوليسترول الضار في الجسم، ويحمي بالتالي من خطر تصلّب الشرايين والأمراض الناتجة عنها، مثل الذبحة الصدريّة، ونقص التروية الدموية لعضلة القلب .
+
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="قيم مدى أهميه المعلومات لك..!"
+                android:onClick="but_37"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

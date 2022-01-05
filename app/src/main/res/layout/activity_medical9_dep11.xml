@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical9_dep11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Dispercam"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/painkill9"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="المادة الفعالة : بيروكسيكام
+                 ينتمي العلاج إلى مجموعة من العلاجات تسمى مضادات اللتهاب الغير ستيرويدية، و التي تعمل على تثبيط عمل إنزيم يسمى إنزيم الأكسدة الحلقي ، المسؤول عن تصنيع مواد في الجسم تسبب الالتهاب و الألم. يمتلك العلاج مفعولاً مسكناً للألم، خافضاً للحرارة و مضاداً للالتهاب .
+                 يستخدم العلاج كمخفف للألم الخفيفة الى المعتدلة وخافض للحرارة كما انه يقضى على الالتهاب المفصلية، و يقضى الدواء على الالام التى تحدث فى البطن.
+ يستعمل الدواء فى علاج الالتهاب المفصليه الروماتويديه و احيانا يسبب العلاج التهاب الفقار الرثيائي ، كما يعالج التهاب الفقار المقسط و يستخدم ايضا لعلاج هشاشة العظام .
+سعر دواء ديسبركام Dispercam :
+يتوفر الدواء بالاشكال والتركيزات التالية :
+ديسبركام أقراص بتركيز 10 مجم بسعر 8.60 جنية مصري .
+ديسبركام أقراص بتركيز 20 مجم بسعر 8.50 جنية مصري .
+ديسبركام أقراص بتركيز 20 مجم لكل ملجم بسعر 15.00 جنية مصري
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map65"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

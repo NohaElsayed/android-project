@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical7_dep5">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Glimaryal  "/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/my_pic41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sugar7"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:text="اقراص تستخدم فى حالات مرضى السكرى تعمل على تخفيض نسبه السكر فى الدم عن طريق افراز مادة الانسولين من البنكرياس.
+يعتبر جليماريل أقراص دواء لعلاج السكر حيث يحتوى جليماريل على المادة الفعالة جليميبرايد هو علاج لمرض السكر الذي هو مرض العصر فتشير الدراسات على إصابة فرد بين كل خمسة أفراد بمرض السكر وتتواجد الكثير من الأدوية الخاصة بعلاج السكر في الأسواق من بينهم دواء جليماريل الذي يعمل على خفض نسبة الجلوكوز في الجسم وتحفز خلايا الكبد على إنتاج الانسولين الطبيعي من خلال خلايا البيتا وبالتالي يعمل على تنظيم مادة الجلوكوز والانسولين في الجسم .
+السعر:من11 الى 24 جنية.
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="btn_map108"
+                android:text="الذهاب للموقع على الخريطه"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical5_dep5">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Glucovance"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/my_pic41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sugar5"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:text="هو أحد الأدوية التى يتم وصفها لعلاج مرضى السكرى وخاصة فى المرحلة الثانية
+يعتبر جلوكوفانس أقراص دواء لعلاج مرض السكر حيث يحتوى  جلوكوفانس على بعض المواد الفعالة التي تعمل على تحفيز الكبد على إنتاج الأنسولين وخفض نسبة الجلوكوز وتأجيل امتصاصها من الأمعاء من خلال مادة الميتفزرمين وهيدروكلوريد الميتولرمين ثنائي الجوانيد مع مادة الجليبنكلاميد وهما المواد الأساسية المكونة لأقراص جلوكو فانس بالإضافة لبعض العناصر الأخرى مما تعمل على ضبط معدلات السكر في الدم .
+السعر:40 جنية.
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="btn_map106"
+                android:text="الذهاب للموقع على الخريطه"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

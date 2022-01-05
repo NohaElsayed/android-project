@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.momen.test.herp1_dep7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:text="الملح"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/herp41"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="
+
+يستخدم الملح فى التخلص من السوائل من الاذن وتخفف التورم والألم
+الملح هو على الارجح الاكثر متاح للعلاج المنزلي، سخني كوب واحد من الملح في مقلاة على نار هادئة لبضع دقائق يمكنك أيضا تسخينها في الميكروويف، ضعي الملح الساخن على القماش وربطى عقده،  ضعي قطعة قماش على الأذن المصابة لمدة 5 إلى 10 دقائق، إستخدمي هذا العلاج يوميا عدة مرات حسب الحاجة، فإن الحرارة المتولدة من جورب تساعد فى استخلاص السوائل من الأذن وتخفف التورم والألم. "
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="قيم مدى أهميه المعلومات لك..!"
+                android:onClick="but_31"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

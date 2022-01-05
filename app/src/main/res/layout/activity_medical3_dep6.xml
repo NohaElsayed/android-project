@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical3_dep6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="BRUFEN-flu "/>
+
+            <ImageButton
+                android:id="@+id/my_pic51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/flu22"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="يستخدم الدواء فى علاج نزلات البرد والأنفلونزا والاعراض المختلفة كما يمكن ان يعالج ارتفاع درجه الحراره ، بالاضافة الى علاج التهابات الحلق
+يستعمل فى علاج احتقان الانف والعطس كما يمكن ان يعالج الحكة والافرازات والدموع
+يمكن ان يعالج احتقان الانف والتهابات الجيوب الانفية ، بالاضافة الى علاج الزكام
+يعتبر بروفين فلو أقراص شراب دواء لعلاج نزلات البرد والانفلونزا حيث يحتوى بروفين فلو على المادة الفعالة ايبوبروفين وينتمى هذا الدواء الى مجموعه من العلاجات تسمى (مضادات الالتهاب لغير ستيرويديه ) وهو ايضا مسكن وخافض للحراره وفعال فى تخفيف الالم ومقاومه الالم وتخفيف الحمى وكما يعمل على تثبيط عمل انزيم (انزيم الاكسده الحلقى السيكلواكسيجيناز) ويتميز ايبوبروفين بمفعوله السريع نظرا لامتصاصه بسرعه من القناه الهضميه ولذلك يستخدم دواء بروفين فلو  فى علاج احتقان الانف والعطس وعلاج الزكام .
+ 33.75 جنية30mg السعر :
+ جنية  13.5 15mg السعر :
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map13"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

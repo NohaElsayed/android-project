@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical3_dep5">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Vildagluse Plus"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/my_pic41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sugarr3"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:text="يستخدم مضاد داء السكر  ويتم تناوله عن طريق الفم ، وهو يستخدم للمرضى الذين يعانون من النوع الثانى من مرض السكر ويعرف باسم داء السكر الغير معتمد على الأنسولين فهو يعمل على التحكم فى نسبة السكر فى الدم
+يعتبر فيلداجلوز بلس أقراص لعلاج مرض السكر واضطرابات المعدة حيث يحتوى دواء فيلداجلوز على المواد الفعالة فيلدجليتين 50مجم، وميتفورمين هيدروكلوريد 1000مجم وهو يستخدم مضاد داء السكر  ويتم تناوله عن طريق الفم، وهو يستخدم للمرضي الذين يعانون من النوع الثاني من مرض السكر، وهو الذي يعرف باسم داء السكر الغير معتمد على الأنسولين ويستخدم عندما لا يتم السيطرة على المرض عن طريق إتباع نظام غذائي أو ممارسة الرياضة، فهو يعمل على التحكم  في نسبة السكر في الدم .
+السعر: 104 جنية
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="btn_map104"
+                android:text="الذهاب للموقع على الخريطه"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

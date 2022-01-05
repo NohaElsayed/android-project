@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical4_dep11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Bendary Allegry"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/painkiller4"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="يتم استخدام دواء بينادريل لعلاج حالات الأرق المزمن الذي ينتج عن بعض الاضطرابات النفسية أو الأمراض العضوية التي تسبب الم أو الصداع مما يحدث صعوبة في النوم بالطريقة الطبيعية .
+و أيضاً يتم استخدام دواء بيناديل علاج حالات الحمى وارتفاع درجة الحرارة حيث يعمل على خفض الحرارة وعمل تسكين واسترخاء لكافة أعضاء الجسم ومن ثم يستطيع المريض ممارسة حياته بشكل طبيعي .
+بل ويساعد ذلك الدواء على منع القيء والغثيان والدوار الذي غالباً ما يصاحب المرأة في فترات الحمل الأولى، بل ويتم تناوله لتخفيف السعال واللسعات التي تنشأ نتيجة الحشرات المختلفة وتسبب الالتهاب والاحمرار .
+بل ويعمل دواء بينادريل على معالجة حالات حساسية الجلد وبعض التهابات الأنف ودواء السفر الذي قد يعاني منه البعض عند ركوب الطائرات أو السفن
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map60"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

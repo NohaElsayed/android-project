@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical7_dep11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Voltaren"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/painkill6"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="يستخدم الدواء فى علاج التهاب المفاصل الروماتويدي كما يقوم بعلاج الالام الأسنان الحادة والمزمنة ، بالاضافة الى انه يمكن ان يقوم بعلاج الام أسفل الظهر .
+ يستعمل الدواء في علاج التهاب الفقار المقسط كما يمكن ان يقوم بعلاج الالتهاب العظمي المفصلي ، بالاضافة الى انه يمكن ان يعالج الالتهابات المفصلية .
+ يعالج الدواء التهاب المفاصل المزمن فى الأطفال كما يقوم بمعالجة الألتهابات كالتهاب الأذن أو الانف أو الحنجرة ، بالاضافة انه يعالج التهاب المفاصل الرثيانى .
+ تستخدم الأمبولات في حاله الآلام الحاده للإصابات السابقة او آلام مثل المغص الكلوي و المراري كما يمكن ان تعالج الشعور بالصداع النصفي الشديد .
+ يستعمل فى علاج الالام الطمث الشهرية عند النساء كما يمكن ان يعالج الام والاصابات والالتواءات ، بالاضافة انه يعالج هشاشة العظام .
+ يساعد الدواء فى التخفيف من الالام والالتهابات التي تحدث للأنسجة العضلية الهيكلية والأنسجة الرخوة والتي قد تحدث بسبب الاصابات الرياضية
+ يتكون دواء فولتارين من مادة  ديكلوفيناك الصوديوم  التي لها تأثير ممتاز جدا في : تسكين الالام - مضاد للروماتيزيوم والالتهابات .
+السعر 21.42
+
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map63"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

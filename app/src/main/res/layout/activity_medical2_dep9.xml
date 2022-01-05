@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical2_dep9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Olysio"/>
+
+            <ImageButton
+                android:id="@+id/my_pic51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/liverr2"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text=" دواء الاوليسيو يستخدم فى إحباط تكاثر الفيروس فى مرحلة من مراحل التكاثر بإحباط إنزيم البروتييز وهو إحدى المراحل الثلاثه
+إن دواء الأوليسيو يحبط تكاثر الفيروس فى مرحلة من مراحل التكاثر بإحباط إنزيم البروتييز، وهو إحدى المراحل الثلاثة وإنزيم هام من تكاثر الفيروس ، مما يجعل البروتوكول المتضمن الأوليسيو والسوفالدى علاجا فعالا لإحباط تكاثر الفيروس فى مرحلتين من مراحل التكاثر بإحباط عمل إنزيمين هامين فى تكاثر فيروس سى ،
+كما أن الأعراض الجانبية للأوليسيو قليلة جدا ولا تقارن بالأعراض الجانبية للإنترفيرون والريبافيرين وهى لا تزيد عن حدوث بعض الحكة البسيطة والتى لا تتجاوز نسب حدوثها 5 % هذا بالإضافة إلى حدوث التهاب فى الجلد .
+السعر: 1900 جنيه للعلبه.
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map40"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

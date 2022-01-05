@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.momen.test.herp1_dep1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:text="البابونج"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/herp1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed"
+
+
+                android:freezesText="false"
+                android:text="فوائد البابونج للجلد :
+
+يخفي آثار الشيخوخة ويساعد في علاج التجاعيد .
+    يساعد البشرة على التخلص من إفرازاتها الدهنية .
+    يسرع علاج البثور والجروح و حب الشباب .
+    يزيل الالتهابات والتسلخات الجلدية .
+    يعمل البابونج على ترطيب البشرة وتنظيفها لانه يحتوي على مواد مضادة للأكسدة .
+    من فوائد البابونج أنه يبيض البشرة بطريقة طبيعية حيث يخفف من تهيج البشرة
+    يقضى على فطريات البشرة
+    يساعد البابونج في تسكين تهيج الجلد وحروق الشمس بطريقة فعالة .
+    يسكن الاكزيما المثيرة للحكاك وقرح الفراش باستعماله شربا ودهانا
+    من فوائد البابونج أيضا أنه تساعد على ازالة القشور الميتة وخلايا الجلد الجافة والكشف عن الخلايا الكامنة وتجديد البشرة
+
+
+"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="قيم مدى أهميه المعلومات لك..!"
+                android:onClick="but_1"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical9_dep6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Congestal "/>
+
+            <ImageButton
+                android:id="@+id/my_pic51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/flu88"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="حالات إرتفاع درجة الحرارة والصداع المصاحب للزكام ونزلات البرد الحادة كما يعالج حالات إحتقان الأنف و إحتقان الجيوب الأنفية و آلامها كما يقوم الدواء بتجفيف الانف و الصدر من السوائل ويعالج حالات انسداد الأنف
+يستعمل فى علاج رشح الأنف و العطس و حكة الأنف و الحلق كما يستخدم فى علاج حالات حكة العين
+يعتبر دواء كونجيستال أقراص لنزلات البرد والأنفلونزا ويعد كونجستال واحد من أشهر الأدوية لعلاج حالات البرد والإنفلونزا حيث انه يتكون من مواد الباراسيتامول و كلورفينارمين والسودوإيفدرين ويعتبر هذا المستحضر مضاد الهستامين الذى يستخدم فى علاج حالات احتقان الانف والجيوب الأنفية وارتفاع درجة الحرارة كما يقوم بتجفيف الانف و الصدر من السوائل .
+ 10.5 جنية160mg السعر :
+ 19.5 جنية650mg السعر :
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map19"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

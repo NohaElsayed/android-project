@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.momen.test.herp1_dep2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:text="الفراوله"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/herp7"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="
+فوائد الفراولة
+تساهم الفراولة في الحد من تدهور وظائف الجهاز العصبي والدماغ، حيث أنها تعمل على حماية الأنسجة من التدهور .
+
+تعتبر الفراولة من الأطعمة الغنية باليود وهذا يجعلها ذات أهمية في تحسين سير الاشارات العصبية في الخلايا العصبية .
+وجدت دراسة أجريت ما بين سنة 1980 إلى سنة 2001 ارتباطاً بين تناول الفراولة والتوت الأزرق بكميات عالية مع بطء تراجع القدرات الإدراكية، ووجدت العديد من الدراسات دورا للفراولة في محاربة تراجع القدرات العقلية مع تقدم العمر،١ كما وجد لأحد المواد الموجودة في الفراولة (الفيسيتين) خواصاً مضادةً للاكتئاب في فئران التجارب، كما وجد أنه يرفع من إفراز السيروتونين والنورإبينفرين، الأمر الذي يدل على إمكانية اتخاذ الفيسيتين كمضاد طبيعي للاكتئاب، ووجدت دراسة واحدة دوراً للفيسيتين في محاربة مرض الهنتنغتون الذي يتسم بتراجع القدرات الإدراكية بالإضافة إلى أعراضه النفسية والحركية التي تحصل بسبب موت خلايا الدماغ، وهو مرض لا يوجد له علاج حتى يومنا هذا، وبالتالي يمكن أن تلعب الفراولة دوراً في السيطرة على هذا المرض .
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="قيم مدى أهميه المعلومات لك..!"
+                android:onClick="but_6"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

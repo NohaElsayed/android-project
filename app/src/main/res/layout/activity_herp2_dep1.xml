@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.momen.test.herp2_dep1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:text="زهور الخزامى "/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/herp6"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="
+
+ترطب البشرة وتعالج جفافها .
+تطهرها من الجراثيم والميكروبات .
+تعالج حب الشباب والبثور وتزيل آثارهما .
+تنظف المسام. تجعلها ناعمة ونضرة ورطبة ولامعة .
+علاج الحروق :
+إن الخواص المطهّرة والمضادّة للإلتهابات التي يتميز بها اللافندر تجعله مفيدا جدًا لعلاج الحروق الطفيفة والندبات الناتجة عنها. فيعمل على تحفيز نمو الخلايا كما يسكّن الألم. ضعي بضع قطرات من زيت اللافندر على الأماكن المصابة بعد غسلها بالماء الجاري الفاتر لمدة 10 دقائق .
+علاج الأكزيما :
+زيت اللافندر هو العلاج المثالي للأكزيما إذ يخفف الحكّة من خلال توفير الترطيب، وبالتالي تسريع عملية الشفاء .
+علاج التجاعيد : يساعد اللافندر على التخلّص من التوتر والإجهاد، السبب الرئيسي لشيخوخة البشرة. كما يُنشّط الدورة الدموية من خلال زيادة تدفّق الأوكسيجن والعناصر الغذائية لخلايا البشرة. أضيفي ثلاث قطرات من زيت اللافندر إلى بياض بيضة مخفوقة، وضعي الخليط على بشرتك لمدة 20 دقيقة ثم إغسلي وجهك جيدًا بالماء الفاتر .
+
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="قيم مدى أهميه المعلومات لك..!"
+                android:onClick="but_2"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

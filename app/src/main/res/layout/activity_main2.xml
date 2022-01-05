@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/callm"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    tools:context="com.example.momen.test.Main2Activity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        app:srcCompat="@drawable/ic_launcherlogin" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="البريد الإلكترونى"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:drawablePadding="12dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/lock"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="كلمه المرور"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="8dp"
+        android:text="تذكر البريد الإلكترونى وكلمه المرور"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="تسجيل الدخول"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:clickable="true"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="Butt_reg"
+        android:text="إشتراك">
+
+    </Button>
+    <Button
+        android:id="@+id/vis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="16dp"
+        android:textAllCaps="false"
+        android:clickable="true"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="visitor"
+        android:text="دخول زائر">
+
+    </Button>
+
+
+</LinearLayout>

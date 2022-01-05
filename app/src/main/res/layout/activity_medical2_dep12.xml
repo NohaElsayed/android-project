@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical2_dep12">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Maca"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sex12"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="إن منتج ماكا من فوريفر ليفينق هو مزيج من الأعشاب المعروفة بفوائدها لرفع الطاقة والرغبة الجنسية للجنسين. فبالاضافة الى العشبة الأساسية الماكا فإن المزيج يتضمن عددا من الأعشابالأخرى ذات الفوائد المتعددة .
+السعر 247 جنية
+
+ سيشعر الرجل بالمزيد من التحسن بعد المواظبة على تناول حبوب المكا .
+ سيكون الانتصاب أقوى وأشد صلابة .
+ يساعد على تحسين القدرة الجنسية .
+ مع مرور الزمن سوف يشعر الرجل بطول القضيب .
+ تساهم في تأخير عملية القذف .
+ تزيد من كمية السائل المنوي وتحسن من حركته .
+ تقلل من القلق الناتج عن الأداء الجنسي للرجل .
+ تحسن من صحة البروستاتا .
+ كما تعمل على تحسين الطاقة الذكرية داخل الرجل
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map67"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

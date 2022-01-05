@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.momen.test.medical6_dep11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Rapifen"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/painkill5"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                android:text="كما ذكرنا في الأعلى يتم تناول دواء ريفانين في حالات الألم الشديدة وخاصة بعد العمليات الجراحية أو الإصابة ببعض الأمراض التي لم تفلح الطرق والأدوية التقليدية في تسكين الألم الخاص بها.
+ أيضاً يستخدم في حالات الإصابة بالالتهابات الروماتزمية والتهاب المفاصل والتهاب العضلات، بل ويستخدم في حالات الحمى الشديدة التي تعمر على رفع درجة حرارة الجسم وبالتالي يعمل دواء ريفانين على خفض الحرارة.
+ وفي حالات خلع الضروس أو الم الأسنان الذي لم تفلح المسكنات التقليدية في تخفيف ألمها فتعمل مادة الباراسيتامول والبروستاجلندين على عدم الإحساس بالألم وفي حالات نزلات البرد والإنفلونزا التي تسبب ألم في الحلق مع ارتفاع حرارة الجسم  .
+ أيضاً بالنسبة للنساء في حالات الولادة خاصة من تعاني من حمى النفاس وبعض الآلام الناتجة عن الدورة الشهرية خاصة أسفل الظهر والعمود الفقري بالكامل ، وعلاج الصداع النصفي والشقيقة
+ يحتوى دواء رابيفين على المادة الفعالة  ايبوبروفين حيث انه يعد من المسكنات القوية جدا والمعروفة سواء للاطفال او الكبار و الذي يعمل كمسكن قوي المفعول وخافض للحرارة .
+ السعر 5.5
+"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:textAllCaps="false"
+                android:clickable="true"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="الذهاب للموقع على الخريطه"
+                android:onClick="btn_map62"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
